@@ -1,0 +1,68 @@
+body {
+  background-color: #232323;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "Montserrat", "Avenir";
+}
+
+.rgb-header {
+  text-align: center;
+  background-color: rgb(11, 85, 165);
+  margin: 0;
+  padding: 2.5%;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+}
+
+#rgb {
+  display: block;
+  font-stretch: expanded;
+}
+
+.nav-bar {
+  background-color: white;
+  text-align: center;
+  width: 100%;
+  height: 30px;
+}
+
+button {
+  border: none;
+  background: none;
+  padding: .3% 1%;
+  letter-spacing: 1px;
+  font-weight: 700;
+  height: 100%;
+}
+
+button:hover {
+  background-color: rgb(11, 85, 165);
+  color: white;
+}
+
+#message {
+  display: inline-block;
+  width: 40%;
+}
+
+.selected-difficulty {
+  background-color: rgb(11, 85, 165);
+  color: white;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2.5%;
+}
+
+.square {
+  width: 30%;
+  margin: 1.66%;
+  padding-bottom: 30%;
+  float: left;
+  border-radius: 15%;
+}
